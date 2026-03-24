@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 tacz_ammo_id,ammo_csv_candidates,status,notes
 12g,12g,ambiguous,可直接对应
 30_06,.30-06 Springfield,auto,可直接对应
@@ -20,3 +21,27 @@ tacz_ammo_id,ammo_csv_candidates,status,notes
 762x54,7.62x54mm,auto,可直接对应
 9mm,9x19mm,auto,TACZ 使用 9mm，Ammo.csv 使用 9x19mm
 rpg_rocket,,missing,当前 Ammo.csv 未包含火箭弹模板
+=======
+tacz_ammo_id,ammo_csv_candidates,status,notes
+12g,12g,ambiguous,可直接对应
+30_06,.30-06 Springfield,auto,可直接对应
+308,.308 Winchester,auto,可直接对应
+338,.338 Lap Mag,auto,可直接对应；默认包只有使用Lap Mag的枪，其他枪包后续再处理
+357mag,.357 Magnum,auto,可直接对应
+40mm,,missing,当前 Ammo.csv 未包含爆炸榴弹模板
+45_70,.45-70 Government,auto,可直接对应
+45acp,.45 ACP,auto,可直接对应
+46x30,4.6x30mm,auto,可直接对应
+50ae,.50 AE,auto,可直接对应
+50bmg,.50 BMG,auto,可直接对应
+545x39,5.45x39mm,auto,可直接对应
+556x45,5.56x45mm,auto,可直接对应；部分枪也可能使用 5.56 Heavy Barrel 等衍生模板
+57x28,5.7x28mm,auto,可直接对应
+58x42,5.8x42mm,auto,可直接对应
+68x51fury,6.8x51mm,ambiguous,可直接对应
+762x25,7.62x25mm,auto,可直接对应
+762x39,7.62x39mm,auto,可直接对应
+762x54,7.62x54mm,auto,可直接对应
+9mm,9x19mm,auto,TACZ 使用 9mm，Ammo.csv 使用 9x19mm
+rpg_rocket,,missing,当前 Ammo.csv 未包含火箭弹模板
+>>>>>>> origin/main
