@@ -1,0 +1,48 @@
+﻿gun_id,tacz_type,tacz_ammo,ammo_csv_name,template_gun_class,template_json,status,preserve_extra_bullet_fields,notes
+aa12,shotgun,tacz:12g,12g,ShotGun,ShotGun_12g.json,auto,no,shotgun 先统一按 12g 模板自动确定
+ai_awp,sniper,tacz:338,.338 Lap Mag,SPR,SPR_.338_Lap_Mag.json,auto,yes,AWM 使用 .338 Lap Mag；按 sniper -> SPR 自动确定
+ak47,rifle,tacz:762x39,7.62x39mm,AR,AR_7.62x39mm.json,auto,no,按 rifle 优先匹配到 AR 中已有弹种自动判定
+aug,rifle,tacz:556x45,5.56x45mm,AR,AR_5.56x45mm.json,auto,no,按 rifle 优先匹配到 AR 中已有弹种自动判定
+b93r,pistol,tacz:9mm,9x19mm,Pistol,Pistol_9x19mm.json,auto,no,可由 type + ammo 自动确定
+cz75,pistol,tacz:9mm,9x19mm,Pistol,Pistol_9x19mm.json,auto,no,可由 type + ammo 自动确定
+db_long,shotgun,tacz:12g,12g,ShotGun,ShotGun_12g.json,auto,no,shotgun 先统一按 12g 模板自动确定
+db_short,shotgun,tacz:12g,12g,ShotGun,ShotGun_12g.json,auto,no,shotgun 先统一按 12g 模板自动确定
+deagle,pistol,tacz:50ae,.50 AE,Pistol,Pistol_.50_AE.json,auto,yes,可由 type + ammo 自动确定
+deagle_golden,pistol,tacz:357mag,.357 Magnum,Pistol,Pistol_.357_Mag.json,auto,yes,可由 type + ammo 自动确定
+fn_evolys,mg,tacz:308,.308 Winchester,LMG,LMG_.308_Win.json,auto,no,MG 暂不自动映射
+fn_fal,rifle,tacz:308,.308 Winchester,BR,BR_.308_Win.json,auto,no,rifle 仍需人工判断 BR/EBR/DMR
+g36k,rifle,tacz:556x45,5.56x45mm,AR,AR_5.56x45mm.json,auto,no,按 rifle 优先匹配到 AR 中已有弹种自动判定
+glock_17,pistol,tacz:9mm,9x19mm,Pistol,Pistol_9x19mm.json,auto,no,可由 type + ammo 自动确定
+hk416d,rifle,tacz:556x45,5.56x45mm,AR,AR_5.56x45mm.json,auto,no,按 rifle 优先匹配到 AR 中已有弹种自动判定
+hk_g3,rifle,tacz:308,.308 Winchester,BR,BR_.308_Win.json,auto,no,rifle 仍需人工判断 BR/EBR/DMR
+hk_mp5a5,smg,tacz:9mm,9x19mm,SMG,SMG_9x19mm.json,auto,no,可由 type + ammo 自动确定
+m1014,shotgun,tacz:12g,12g,ShotGun,ShotGun_12g.json,auto,yes,shotgun 先统一按 12g 模板自动确定
+m107,sniper,tacz:50bmg,.50 BMG,SPR,SPR_.50_BMG.json,auto,yes,按 sniper -> SPR 自动确定
+m16a1,rifle,tacz:556x45,5.56x45mm,AR,AR_5.56x45mm.json,auto,no,按 rifle 优先匹配到 AR 中已有弹种自动判定
+m16a4,rifle,tacz:556x45,5.56x45mm,AR,AR_5.56x45mm.json,auto,no,按 rifle 优先匹配到 AR 中已有弹种自动判定
+m1911,pistol,tacz:45acp,.45 ACP,Pistol,Pistol_.45_ACP.json,auto,no,可由 type + ammo 自动确定
+m249,mg,tacz:556x45,5.56x45mm,LMG,LMG_5.56x45mm.json,auto,no,MG 暂不自动映射
+m320,rpg,tacz:40mm,,,,skip,yes,当前 Ammo.csv 未包含爆炸投射物模板
+m4a1,rifle,tacz:556x45,5.56x45mm,AR,AR_5.56x45mm.json,auto,no,按 rifle 优先匹配到 AR 中已有弹种自动判定
+m700,sniper,tacz:30_06,.30-06 Springfield,DMR,DMR_.30-06_Springfield.json,auto,no,sniper 可近似映射到 SPR，但 Ammo.csv 当前没有 SPR 的 .30-06 模板
+m870,shotgun,tacz:12g,12g,ShotGun,ShotGun_12g.json,auto,yes,shotgun 先统一按 12g 模板自动确定
+m95,sniper,tacz:50bmg,.50 BMG,SPR,SPR_.50_BMG.json,auto,yes,按 sniper -> SPR 自动确定
+minigun,mg,tacz:308,.308 Winchester,LMG,LMG_.308_Win.json,auto,no,MG 暂不自动映射
+mk14,rifle,tacz:308,.308 Winchester,BR,BR_.308_Win.json,auto,yes,rifle 仍需人工判断；原 bullet 含 explosion
+p320,pistol,tacz:45acp,.45 ACP,Pistol,Pistol_.45_ACP.json,auto,no,可由 type + ammo 自动确定
+p90,smg,tacz:57x28,5.7x28mm,SMG,SMG_5.7x28mm.json,auto,no,可由 type + ammo 自动确定
+qbz_191,rifle,tacz:58x42,5.8x42mm,AR,AR_5.8x42mm.json,auto,no,按 rifle 优先匹配到 AR 中已有弹种自动判定
+qbz_95,rifle,tacz:58x42,5.8x42mm,AR,AR_5.8x42mm.json,auto,no,按 rifle 优先匹配到 AR 中已有弹种自动判定
+rpg7,rpg,tacz:rpg_rocket,,,,skip,yes,当前 Ammo.csv 未包含爆炸投射物模板
+rpk,mg,tacz:762x39,7.62x39mm,LMG,LMG_7.62x39mm.json,auto,yes,MG 暂不自动映射；原 bullet 含 explosion
+scar_h,rifle,tacz:308,.308 Winchester,BR,BR_.308_Win.json,auto,yes,rifle 仍需人工判断；原 bullet 含 explosion
+scar_l,rifle,tacz:556x45,5.56x45mm,AR,AR_5.56x45mm.json,auto,no,按 rifle 优先匹配到 AR 中已有弹种自动判定
+sks_tactical,rifle,tacz:762x39,7.62x39mm,BR,AR_7.62x39mm.json,auto,no,按 rifle 优先匹配到 AR 中已有弹种自动判定
+spas_12,shotgun,tacz:12g,12g,ShotGun,ShotGun_12g.json,auto,yes,shotgun 先统一按 12g 模板自动确定
+spr15hb,rifle,tacz:556x45,5.56x45mm,BR,AR_5.56x45mm.json,auto,no,按 rifle 优先匹配到 AR 中已有弹种自动判定
+springfield1873,sniper,tacz:45_70,.45-70 Government,EBR,EBR_.45-70_Gov.json,auto,no,sniper 可近似映射到 SPR，但 Ammo.csv 当前没有 SPR 的 .45-70 模板
+timeless50,pistol,tacz:50ae,.50 AE,Pistol,Pistol_.50_AE.json,auto,yes,可由 type + ammo 自动确定
+type_81,rifle,tacz:762x39,7.62x39mm,AR,AR_7.62x39mm.json,auto,no,按 rifle 优先匹配到 AR 中已有弹种自动判定
+ump45,smg,tacz:45acp,.45 ACP,SMG,SMG_.45_ACP.json,auto,no,可由 type + ammo 自动确定
+uzi,smg,tacz:9mm,9x19mm,SMG,SMG_9x19mm.json,auto,no,可由 type + ammo 自动确定
+vector45,smg,tacz:45acp,.45 ACP,SMG,SMG_.45_ACP.json,auto,no,可由 type + ammo 自动确定
