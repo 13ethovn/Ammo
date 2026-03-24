@@ -58,6 +58,52 @@ The working assumption is:
 5. Run `ApplyBulletTemplates.py`
 6. Inspect the results in `generated_guns/`
 
+## Command Examples
+
+Run these commands from the project root:
+
+```powershell
+cd Ammo
+```
+
+Generate bullet templates from `Ammo.csv`:
+
+```powershell
+python AmmoDataTrans.py
+```
+
+Refresh the default TACZ gun-to-template draft mapping:
+
+```powershell
+python GenerateGunTemplateMap.py
+```
+
+What it does:
+
+- reads copied default gun data from `../data/tacz/data/guns/`
+- reads default gun type data from `../data/tacz/index/guns/`
+- uses `tacz_default_ammo_map.csv` to map TACZ ammo ids to `Ammo.csv` names
+- regenerates `tacz_default_gun_template_map_draft.csv`
+- for `rifle`, tries to auto-map to `AR` first when that ammo exists in the
+  `AR` section of `Ammo.csv`
+- for default-pack `shotgun`, tries to use `ShotGun + 12g`
+
+Apply templates to copied TACZ gun data:
+
+```powershell
+python ApplyBulletTemplates.py
+```
+
+What it does:
+
+- reads `tacz_default_gun_template_map_draft.csv`
+- writes processed gun data into `generated_guns/`
+- uses direct template mappings for `auto` rows
+- for non-`auto` rows, if `template_gun_class` is already set, it will try to
+  fill missing template information from the gun's ammo and the ammo mapping
+- preserves extra `bullet` fields such as `explosion` when the mapping row is
+  marked with `preserve_extra_bullet_fields=yes`
+
 ## Notes
 
 - This project works on copied TACZ data inside the workspace rather than
